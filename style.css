@@ -9,6 +9,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -27,8 +30,27 @@ a,
 }
 
 /* Style untuk desktop atau layar lebih besar */
-body {
   font-size: 16px;
+}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, nav, main, aside, footer {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
 }
 
 /* Media query untuk layar berukuran kecil, seperti smartphone */
@@ -37,11 +59,11 @@ body {
         display: block;
         margin-bottom: 5px;
     }
-  body {
-    font-size: 14px; /* Sesuaikan dengan ukuran font yang diinginkan untuk layar kecil */
-  }
 
-  /* Tambahkan aturan CSS lainnya untuk mengubah tata letak atau gaya sesuai kebutuhan */
+    header, nav, main, aside, footer {
+        margin: 5px;
+        padding: 5px;
+    }
 }
 
 /* DESKTOP NAV */
