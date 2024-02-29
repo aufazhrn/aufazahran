@@ -488,3 +488,14 @@ footer p {
       display: block;
       margin: 0 auto;
 }
+#about, .section-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+    }
+
+    .about-details-container {
+      max-width: 600px; /* Sesuaikan lebar maksimum container sesuai kebutuhan Anda */
+    }
