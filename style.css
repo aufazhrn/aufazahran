@@ -26,6 +26,20 @@ a,
   transition: all 300ms ease;
 }
 
+/* Style untuk desktop atau layar lebih besar */
+body {
+  font-size: 16px;
+}
+
+/* Media query untuk layar berukuran kecil, seperti smartphone */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Sesuaikan dengan ukuran font yang diinginkan untuk layar kecil */
+  }
+
+  /* Tambahkan aturan CSS lainnya untuk mengubah tata letak atau gaya sesuai kebutuhan */
+}
+
 /* DESKTOP NAV */
 
 nav,
