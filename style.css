@@ -198,9 +198,21 @@ section {
 
 .section-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
 }
-
-/* PROFILE SECTION */
+.about-details-container {
+  max-width: 600px; 
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; 
+}
 
 #profile {
   display: flex;
